@@ -1,0 +1,25 @@
+{
+  "name": "nodejs-basic-challenge",
+  "version": "1.0.0",
+  "description": "<a href=\"https://22challenge.oopy.io/\">컴공 선배 투투 베이직 챌린지</a>의 Node.JS 22일 챌린지\r 공부 기록 남기는 레포지토리",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeeSoMyoung/NodeJS-Basic-Challenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeeSoMyoung/NodeJS-Basic-Challenge/issues"
+  },
+  "homepage": "https://github.com/LeeSoMyoung/NodeJS-Basic-Challenge#readme",
+  "devDependencies": {
+    "express": "^4.17.3",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.15"
+  }
+}
