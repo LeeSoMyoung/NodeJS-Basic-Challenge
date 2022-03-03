@@ -74,5 +74,3 @@ promise는 큰 데이터를 불러오는 등의 일을 하므로 **시간이 걸
 ## Promise chaining
 
 여러 개의 Promise가 중첩되어 있을때의 경우이다.
-
-# async & await
