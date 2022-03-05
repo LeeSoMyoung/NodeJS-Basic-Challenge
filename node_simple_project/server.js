@@ -8,7 +8,10 @@ const path = require('path');
 
 const PORT = process.env.PORT || 4000;
 
-app.use('/public', express.static(path.resolve(__dirname, 'public')));
+//app.use('/css', express.static(path.resolve(__dirname, 'public', 'css')));
+//app.use('/routes', express.static(path.resolve(__dirname, 'public', 'routes')));
+//app.use('/views', express.static(path.resolve(__dirname, 'public', 'views')));
+app.use(express.static(process.cwd() + '/public'));
 
 app.get('/*', (req, res) => {
     res.sendFile(path.resolve(__dirname, 'public', 'views', 'index.html'));
